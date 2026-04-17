@@ -247,6 +247,10 @@ h3 {
   background: rgba(13, 71, 161, 0.7);
 }
 
+.carp-table tr:hover td {
+  background-color: #095ca5b4;
+}
+
 /* FOOTER */
 
 footer {
