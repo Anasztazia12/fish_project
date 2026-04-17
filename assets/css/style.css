@@ -114,6 +114,7 @@ main p {
 .fish-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 8px 20px rgba(0,0,0,0.6);
+  background-color: #095ca5b4;
 }
 
 .fish-card h4 {
@@ -148,7 +149,7 @@ table td {
 }
 
 table tr:hover {
-  background-color: rgba(255, 255, 255, 0.08);
+  background-color: rgba(255, 255, 255, 0.329);
 }
 
 h3 {

@@ -71,14 +71,14 @@ The MVP includes:
 
 ### Feature Prioritisation Table
 
-| Feature | Description | Priority |
-| --- | --- | --- |
-| Multi-page navigation | Users can move between the different pages of the website | MVP |
-| Responsive layout | Content adapts to mobile and tablet screens | MVP |
-| Intro and images | Pages include visual content and short introductions | MVP |
-| Carp information table | Structured information about carp characteristics | MVP |
-| Google Maps section | Shows the location used in the carp page | Should Have |
-| Extra visual effects | Additional transitions or subtle enhancements | Could Have |
+|                 Feature            |                             Description                        |                   Priority            |
+| ---------------------------------- | -------------------------------------------------------------- | ------------------------------------- |
+| Multi-page navigation              |  Users can move between the different pages of the website     |                      MVP              |
+| Responsive layout                  |         Content adapts to mobile and tablet screens            |                      MVP              |
+| Intro and images                   |          Pages include visual content and short introductions  |                      MVP              |
+| Carp information table             |          Structured information about carp characteristics     |                      MVP              |
+| Google Maps section                |               Shows the location used in the carp page         |                     Should Have       |
+| Extra visual effects               |             Additional transitions or subtle enhancements      |                     Could Have        |
 
 ## Structure Plane
 
@@ -145,13 +145,13 @@ The website was tested on multiple screen sizes to check layout, spacing, and na
 
 #### Manual Testing
 
-| Feature | Expected Result | Actual Result | Pass |
-| --- | --- | --- | --- |
-| Navigation links | Open the correct page | Works as expected | Yes |
-| Mobile layout | Content stacks correctly | Works | Yes |
-| Images | Load and scale properly | Works | Yes |
-| Tables | Remain readable on smaller screens | Works | Yes |
-| Map embed | Displays correctly on the Carp page | Works | Yes |
+|       Feature       |      Expected Result                        |     Actual Result        |       Pass        |
+| ------------------- | ------------------------------------------- | ------------------------ | ----------------- |
+| Navigation links    | Open the correct page                       |      Works as expected   |         Yes       |
+| Mobile layout       | Content stacks correctly                    |      Works               |         Yes       |
+| Images              | Load and scale properly                     |      Works               |         Yes       |
+| Tables              | Remain readable on smaller screens          |      Works               |         Yes       |
+| Map embed           | Displays correctly on the Carp page         |      Works               |         Yes       |
 
 #### Screenshots
 
