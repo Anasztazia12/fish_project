@@ -92,6 +92,12 @@ main p {
   line-height: 1.7;
 }
 
+/* FISHING EXPERIENCE PAGE */
+
+.fishing-experience-page main p {
+  text-align: justify;
+}
+
 /* FISH CARDS */
 
 .fish-cards {
@@ -152,6 +158,8 @@ table tr:hover {
   background-color: #095ca5b4;
 }
 
+/* CONTACT */
+
 h3 {
   text-align: center;
 }
@@ -174,18 +182,6 @@ h3 {
 
 .value {
   color: white;
-}
-
-/* CARP PAGE - FISHING IMAGE */
-
-.fishing-image {
-  width: 50%;
-  max-width: 400px;
-  height: auto;
-  display: block;
-  margin: 25px auto;
-  border-radius: 12px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.6);
 }
 
 /* MAP */
@@ -328,6 +324,8 @@ footer {
   opacity: 1;
 }
 
+/* RESPONSIVE - TABLET */
+
 @media (max-width: 768px) {
   header {
     padding: 20px 16px;
@@ -367,7 +365,6 @@ footer {
     grid-template-columns: 1fr;
   }
 
-  .fishing-image,
   .carp2-image {
     width: 100%;
     max-width: 100%;
@@ -377,6 +374,8 @@ footer {
     aspect-ratio: 4 / 3;
   }
 }
+
+/* RESPONSIVE - MOBILE */
 
 @media (max-width: 520px) {
   header {
