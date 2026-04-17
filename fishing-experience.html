@@ -11,10 +11,10 @@
    <title>Fishing Experience | CARPYXA</title>
 </head>
 
-<body class="fishing-experience-page">
-
+<body>
 <header>
-  <h1>CARPYXA</h1>
+    <h1>CARPYXA</h1>
+    <!-- Main navigation -->
  <nav aria-label="Main navigation">
   <a href="./index.html">Home</a>
   <a href="./carp.html">Carp</a>
@@ -22,72 +22,67 @@
 </nav>
 </header>
 
-<main>
+<main class="fishing-experience-content">
   <h2>Fishing Experience</h2>
 
-  <!-- Bootstrap carousel -->
-  <div id="fishingCarousel" class="carousel slide carousel-fade mb-5" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#fishingCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#fishingCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#fishingCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      <button type="button" data-bs-target="#fishingCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
-      <button type="button" data-bs-target="#fishingCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
-      <button type="button" data-bs-target="#fishingCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
-      <button type="button" data-bs-target="#fishingCarousel" data-bs-slide-to="6" aria-label="Slide 7"></button>
+  <!-- Intro layout: text left, carousel right -->
+  <div class="experience-intro">
+    <div class="experience-intro-text">
+      <p><br><br> Fishing is more than just a hobby – it is an experience that connects people with nature and provides a sense of peace and relaxation. Whether you are casting your line in a quiet lake or standing by a flowing river, the act of fishing allows you to escape from the stresses of everyday life and immerse yourself in the beauty of the outdoors.</p><br>
+        <p>Fishing is a calming activity that helps people escape from the noisy and fast-paced world.</p>
+      <p>For many, fishing is more than a hobby – it is a way to relax, recharge, and reconnect with nature.</p>
     </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="assets/images/fishing.png" class="d-block w-100" alt="Peaceful fishing scene">
+
+    <div id="fishingCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#fishingCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#fishingCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#fishingCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#fishingCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#fishingCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#fishingCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+        <button type="button" data-bs-target="#fishingCarousel" data-bs-slide-to="6" aria-label="Slide 7"></button>
       </div>
-      <div class="carousel-item">
-        <img src="assets/images/fishing2.png" class="d-block w-100" alt="Carp fishing equipment">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/images/fishing.png" class="d-block w-100" alt="Peaceful fishing scene">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/images/fishing2.png" class="d-block w-100" alt="Carp fishing equipment">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/images/fishing3.png" class="d-block w-100" alt="Fishing experience moment">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/images/fishing4.png" class="d-block w-100" alt="Angler in action">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/images/carp.png" class="d-block w-100" alt="Common carp">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/images/carp2.png" class="d-block w-100" alt="Mirror carp">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/images/fishing5.png" class="d-block w-100" alt="Fishing adventure scene">
+        </div>
       </div>
-      <div class="carousel-item">
-        <img src="assets/images/fishing3.png" class="d-block w-100" alt="Fishing experience moment">
-      </div>
-      <div class="carousel-item">
-        <img src="assets/images/fishing4.png" class="d-block w-100" alt="Angler in action">
-      </div>
-      <div class="carousel-item">
-        <img src="assets/images/carp.png" class="d-block w-100" alt="Common carp">
-      </div>
-      <div class="carousel-item">
-        <img src="assets/images/carp2.png" class="d-block w-100" alt="Mirror carp">
-      </div>
-      <div class="carousel-item">
-        <img src="assets/images/fishing5.png" class="d-block w-100" alt="Fishing adventure scene">
-      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#fishingCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#fishingCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#fishingCarousel" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#fishingCarousel" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
   </div>
-
-  <p>
-    Fishing is a calming activity that helps people escape from the noisy and fast-paced world.
-    Time spent near the water promotes relaxation and mental clarity.
-  </p>
-
-  <p>
-    The quiet surroundings, fresh air, and natural sounds create a peaceful atmosphere.
-    Fishing allows people to slow down and enjoy the moment.
-  </p>
-
-  <p>
-    For many, fishing is more than a hobby – it is a way to relax, recharge, and reconnect with nature.
-  </p>
-
+  <br>
+<hr>
   <h3>Carp Fishing – A Skill and Passion</h3>
 
   <p>
     Carp fishing is one of the most rewarding forms of angling. It requires patience, skill, and a deep understanding of fish behaviour. Whether you are targeting common carp, mirror carp, or grass carp, success depends on knowing where they feed, what they eat, and how they respond to different conditions.
-  </p>
+  </p><br>
 
   <h3>Baits and Lures</h3>
 
@@ -101,7 +96,7 @@
 
   <p>
     For those using artificial methods, soft lures and floating bread imitations can be effective. Carp are intelligent fish that can become selective, so varying your bait strategy based on their current feeding patterns is key.
-  </p>
+  </p><br>
 
   <h3>The Fishing Experience</h3>
 
