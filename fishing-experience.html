@@ -6,6 +6,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merienda+One&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
    <title>Fishing Experience | CARPYXA</title>
 </head>
@@ -23,8 +24,50 @@
 
 <main>
   <h2>Fishing Experience</h2>
-  <img src="assets/images/fishing.png" alt="Fishing experience" class="fishing-image">
 
+  <!-- Bootstrap Carousel -->
+  <div id="fishingCarousel" class="carousel slide carousel-fade mb-5" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#fishingCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#fishingCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#fishingCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#fishingCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#fishingCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      <button type="button" data-bs-target="#fishingCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+      <button type="button" data-bs-target="#fishingCarousel" data-bs-slide-to="6" aria-label="Slide 7"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="assets/images/fishing.png" class="d-block w-100" alt="Peaceful fishing scene">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/images/fishing2.png" class="d-block w-100" alt="Carp fishing equipment">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/images/fishing3.png" class="d-block w-100" alt="Fishing experience moment">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/images/fishing4.png" class="d-block w-100" alt="Angler in action">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/images/carp.png" class="d-block w-100" alt="Common carp">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/images/carp2.png" class="d-block w-100" alt="Mirror carp">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/images/fishing5.png" class="d-block w-100" alt="Fishing adventure scene">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#fishingCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#fishingCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
 
   <p>
     Fishing is a calming activity that helps people escape from the noisy and fast-paced world.
@@ -39,6 +82,40 @@
   <p>
     For many, fishing is more than a hobby – it is a way to relax, recharge, and reconnect with nature.
   </p>
+
+  <h3>Carp Fishing – A Skill and Passion</h3>
+
+  <p>
+    Carp fishing is one of the most rewarding forms of angling. It requires patience, skill, and a deep understanding of fish behaviour. Whether you are targeting common carp, mirror carp, or grass carp, success depends on knowing where they feed, what they eat, and how they respond to different conditions.
+  </p>
+
+  <h3>Baits and Lures</h3>
+
+  <p>
+    The choice of bait is crucial to successful carp fishing. Boilies are one of the most popular baits – they are specially prepared pellets with a hard outer shell that resists smaller fish and attracts large carp. Sweetcorn is another classic choice, simple but effective, and often combined with other baits for better results.
+  </p>
+
+  <p>
+    Pellets and dough-based baits work well in different seasons and water temperatures. In warmer months, flavoured baits with vanilla, fruit, or fish extracts can increase your catch rate significantly. Bread, though traditional, still attracts carp but is best used in combination with more consistent baits.
+  </p>
+
+  <p>
+    For those using artificial methods, soft lures and floating bread imitations can be effective. Carp are intelligent fish that can become selective, so varying your bait strategy based on their current feeding patterns is key.
+  </p>
+
+  <h3>The Fishing Experience</h3>
+
+  <p>
+    A successful carp fishing session is about more than just catching fish. It is about spending hours by the water, observing nature, reading the weather and water conditions, and adapting your approach accordingly. The anticipation during those moments when your rod bends, and you feel the pull of a large carp is unforgettable.
+  </p>
+
+  <p>
+    Whether fishing alone in peaceful solitude or with friends sharing stories and techniques, carp fishing offers a unique blend of challenge, relaxation, and connection to the natural world. Each session teaches you something new about the fish, the water, and yourself.
+  </p>
+
+  <p>
+    For many anglers, the true reward is not just the weight of fish caught, but the memories made, the skills honed, and the peace found in nature. This is what makes carp fishing a lifelong passion.
+  </p>
 </main>
 
 <footer aria-label="Website footer">
@@ -46,5 +123,6 @@
   <p>Designed and developed by Anasztázia Karalyos-Kecskés</p>
 </footer>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
